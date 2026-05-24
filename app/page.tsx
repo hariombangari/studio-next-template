@@ -1,8 +1,14 @@
 import Image from "next/image";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+      {/* Theme toggle in top right corner */}
+      <div className="fixed right-6 top-6 z-50">
+        <ThemeToggle />
+      </div>
+      
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <Image
           className="dark:invert"

@@ -1,13 +1,7 @@
-# Repository Title
+# Test README
 
-## Description
-This is a test README file for the repo.
+This is a test README file for the repository.
 
-## Installation
-Instructions for installation.
+## Introduction
 
-## Usage
-Instructions for usage.
-
-## Contributing
-Guidelines for contributing to the project.
+This repository is intended for testing purposes.
